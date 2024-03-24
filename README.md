@@ -89,4 +89,7 @@ Congratulations, your infrastructure is now resilient against ransomware attacks
 
 By following these steps and implementing ransomware protection measures, you've strengthened your organization's data security and ensured the integrity of your file storage and sharing infrastructure.
 
-Stay secure and vigilant!
+## Conclusion
+
+In conclusion, the establishment of a centralized file server, fortified with robust ransomware protection measures, marks a significant stride towards enhancing organizational data security and facilitating seamless collaboration. By diligently following the outlined installation and configuration steps, along with implementing stringent ransomware protection protocols, your infrastructure now stands resilient against malicious attacks. With these measures in place, you've not only fortified your file storage and sharing infrastructure but also safeguarded the integrity of your organization's valuable data assets. Stay vigilant, stay secure!
+
