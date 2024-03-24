@@ -3,6 +3,14 @@
 ## Introduction
 I am pleased to guide you through the process of installing and configuring a file server for centralized file storage and sharing. This is a crucial step in streamlining your organization's data management and ensuring seamless collaboration among team members.
 
+## Why We Need It
+
+In today's interconnected digital landscape, the need for centralized file storage and sharing solutions is paramount. A file server serves as the cornerstone of efficient data management within organizations, providing a secure and accessible repository for critical files and documents. By centralizing file storage, businesses can streamline collaboration among team members, facilitate seamless access to resources, and ensure data consistency across the organization.
+
+Furthermore, the rising threat of ransomware attacks underscores the importance of implementing robust security measures to safeguard sensitive data. Ransomware poses a significant risk to organizational integrity, often resulting in data loss, financial implications, and reputational damage. Hence, integrating ransomware protection mechanisms into file server infrastructure becomes imperative to mitigate these threats effectively.
+
+In summary, the deployment of a centralized file server with ransomware protection is essential for maintaining data security, fostering collaboration, and safeguarding organizational assets in today's dynamic digital landscape.
+
 ## Installing and Configuring the File Server
 
 1. Add the necessary roles and features to your server. To do this, go to Server Manager, click on "Add roles and features," and select "File Server" and "File Server Resource Manager" to protect against ransomware.
