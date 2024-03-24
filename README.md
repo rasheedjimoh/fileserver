@@ -1,15 +1,16 @@
 # File Server for Centralised file storage and sharing with Ransomware protection
 
+## Introduction
 I am pleased to guide you through the process of installing and configuring a file server for centralized file storage and sharing. This is a crucial step in streamlining your organization's data management and ensuring seamless collaboration among team members.
 
-**Installing and Configuring the File Server**
+## Installing and Configuring the File Server
 
 1. Add the necessary roles and features to your server. To do this, go to Server Manager, click on "Add roles and features," and select "File Server" and "File Server Resource Manager" to protect against ransomware.
 2. Go to Tools > Computer Management > Disk Management. Allocate a 100GB disk as the file server disk and bring it online by initialization.
 3. Now, back in Server Manager, create a new share. Enable access-based enumeration and disable share caching for added security.
 4. When setting permissions, disable inheritance and convert permissions. Remove any users with special permissions and add permission to allow "domain users" to access the folder.
 
-**Mapped Network Drive**
+## Mapped Network Drive
 
 Set up a mapped network drive on client machines to easily access the shared folder on the file server.
 
@@ -27,7 +28,7 @@ Set up a mapped network drive on client machines to easily access the shared fol
 
 ----
 
-**Ransomware Protection**
+## Ransomware Protection
 
 ----
 
@@ -68,7 +69,7 @@ Schedule the script to run daily at midnight using Task Scheduler with the follo
 - Run with the highest privilege
 - Hide while running
 
-**Testing and Verification**
+## Testing and Verification
 
 Test the setup by deleting all settings installed earlier and then running the script.
 
